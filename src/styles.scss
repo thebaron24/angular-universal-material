@@ -1,0 +1,24 @@
+@import 'scss/theme';
+
+@include mat-core($app-typography);
+
+html, body, app-root{
+	height: 100vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+app-root {
+	display: block;
+	overflow: auto;
+}
+
+.app-theme {
+	$theme: $app-theme;
+	$typography: $app-typography;
+	@include angular-material-theme($theme);
+	@include angular-material-typography($typography);
+	@include mat-theme-icons($theme);
+}

@@ -1,0 +1,26 @@
+@import '../scss/theme';
+
+.app-container {
+	height: 100%;
+	max-height: 100%;
+
+	mat-toolbar{
+		background: transparent;
+		color: mat-color($accent, 800);
+
+		h1 {
+			margin-left: 8px;
+		}
+
+		button {
+			mat-icon {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+
+	mat-sidenav {
+  	min-width: 200px;
+	}
+}

@@ -1,0 +1,44 @@
+@mixin mat-theme-general-mixin($theme) {
+  $primary: map-get(
+    $map: $theme,
+    $key: primary
+  );
+
+  $accent: map-get(
+    $map: $theme,
+    $key: accent
+  );
+
+  $warn: map-get(
+    $map: $theme,
+    $key: warn
+  );
+
+  //example
+  //background-color: mat-color($primary, 500);
+  //color: mat-contrast($primary, 500);
+
+}
+
+
+@mixin mat-theme-icons($theme) {
+  $primary: map-get(
+    $map: $theme,
+    $key: primary
+  );
+
+  $accent: map-get(
+    $map: $theme,
+    $key: accent
+  );
+
+  $warn: map-get(
+    $map: $theme,
+    $key: warn
+  );
+
+  .material-icons {
+  	color: mat-color($accent, 800);
+  }
+
+}
