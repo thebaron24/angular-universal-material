@@ -29,7 +29,7 @@
     "@angular/platform-server": "~9.1.9",
     "@angular/router": "~9.1.9",
     "@nguniversal/express-engine": "^9.0.0",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "material-design-icons": "^3.0.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
